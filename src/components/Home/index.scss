@@ -2,12 +2,49 @@
     font-size: 80px;
   }
 
-  .resume {
-    margin-left: 30vh;
+  .resume-link {
+    margin-left: 100vh;
     color:bisque;
     text-decoration: none;
+    &:hover{
+      color: rgb(127, 142, 144);
+    }
+  } 
+
+  .resume{
+    margin-left: 59vh;
+    font-size: medium;
+    border-width: 2px;
+  border-radius: 2vh;
+  height: 4vh;
+  width: 10vh;
+  border: 0.5vh solid rgb(127, 142, 144);
+  border-style: outset;
+  box-shadow: 5px 10px rgb(8, 0, 0);
+    &:hover{
+      font-size: x-large;
+      height: 5vh;
+      width: 14vh;
+    }
   }
 
+  .inner{
+    margin-top: 1vh;
+    margin-left: .75vh;
+  }
+
+  .icons{
+    border-radius: 2vh;
+  height: 4vh;
+  width: 10vh;
+  border: 0.5vh solid rgb(127, 142, 144);
+  border-style: outset;
+  box-shadow: 5px 10px rgb(8, 0, 0);
+  }
+
+  .icon{
+    size: 30vh;
+  }
 
 @media screen and (max-width: 600px) {
     .name{

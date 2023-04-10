@@ -1,0 +1,16 @@
+.name{
+    font-size: 80px;
+  }
+
+  .resume {
+    margin-left: 30vh;
+    color:bisque;
+    text-decoration: none;
+  }
+
+
+@media screen and (max-width: 600px) {
+    .name{
+      font-size: x-large;
+    }
+  }

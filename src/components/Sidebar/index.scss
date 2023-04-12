@@ -85,14 +85,14 @@
         }
         a.active {
             svg {
-                color:bisque;
+                color:rgb(255, 255, 255);
             }
         }
     }
 
     ul {
         position: absolute;
-        bottom: 30px;
+        bottom: 70px;
         width: 100%;
         display: block;
         padding: 0;
@@ -104,12 +104,12 @@
           a {
             padding: 7px 0;
             display: block;
-            font-size: 22px;
+            font-size: 25px;
             line-height: 16px;
             color: #000000;
 
             &:hover svg{
-                color:bisque;
+                color:white;
             }
           }
         }

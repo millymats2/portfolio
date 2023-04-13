@@ -23,9 +23,8 @@
   border-style: outset;
   box-shadow: 5px 10px rgb(8, 0, 0);
     &:hover{
-      font-size: x-large;
-      height: 5vh;
-      width: 14vh;
+      height: 4.2vh;
+      width: 10.2vh;
     }
   }
 
@@ -54,6 +53,16 @@
     border: 1vh solid rgb(127, 142, 144);
     border-style: outset;
     box-shadow: 5px 5px rgb(8, 0, 0);
+    text-decoration: none;
+    &:hover{
+      font-size: xx-large;
+      height: 5vh;
+      width: 5vh;
+    }
+    &:hover:after{
+      content: attr(data-hover);
+      font-size: small;
+    }
   }
 
   .resume-page {
@@ -61,6 +70,7 @@
     margin-top: 5vh;
   }
 
+ 
 @media screen and (max-width: 600px) {
     .name{
       font-size: x-large;

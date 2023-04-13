@@ -108,13 +108,25 @@
             line-height: 16px;
             color: #000000;
 
-            &:hover svg{
-                color:white;
+            &:hover {
+                color: rgb(0, 0, 0);
+
+                svg {
+                    opacity: .25;
+                    zoom: 150%;
+                }
+
+                &:after {
+                    opacity: 1;
+                }
             }
+           
+        }
+       
           }
         }
       }
-    }
+    
 
 
 @media screen and (max-width: 1200px) {

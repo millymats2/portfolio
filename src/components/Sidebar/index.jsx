@@ -6,7 +6,7 @@ import {
     faLinkedin,
     faGithub,
   } from '@fortawesome/free-brands-svg-icons'
-import { faHome, faUser, faEnvelope, faEnvelopeOpen} from '@fortawesome/free-solid-svg-icons'
+import { faHome, faUser, faEnvelope, faEnvelopeOpen, faFeather} from '@fortawesome/free-solid-svg-icons'
 
 
 const Sidebar = () => (
@@ -15,30 +15,33 @@ const Sidebar = () => (
         </Link>
         <nav>
             <NavLink exact="true" activeclassname="active" to="/">
-                <FontAwesomeIcon icon={faHome} color="#000000"/>
+                <FontAwesomeIcon icon={faHome} color="#FFFFFF"/>
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
-                <FontAwesomeIcon icon={faUser} color="#000000"/>
+                <FontAwesomeIcon icon={faUser} color="#FFFFFF"/>
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
-                <FontAwesomeIcon icon={faEnvelope} color="#000000"/>
+                <FontAwesomeIcon icon={faEnvelope} color="#FFFFFF"/>
+            </NavLink>
+            <NavLink exact="true" activeclassname="active" className="work-link" to="/contact">
+                <FontAwesomeIcon icon={faFeather} color="#FFFFFF"/>
             </NavLink>
         </nav>
         <ul>
             <li>
                 <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/milana-matsuka/'>
-                    <FontAwesomeIcon icon={faLinkedin} color="#000000"/>
+                    <FontAwesomeIcon icon={faLinkedin} color="#FFFFFF"/>
                 </a>
             </li>
 
             <li>
                 <a target="_blank" rel='noreferrer' href='https://github.com/millymats2'>
-                    <FontAwesomeIcon icon={faGithub} color="#000000"/>
+                    <FontAwesomeIcon icon={faGithub} color="#FFFFFF"/>
                 </a>
             </li>
             <li>
                 <a target="_blank" rel='noreferrer' href='mailto:millymats2@gmail.com'>
-                    <FontAwesomeIcon icon={faEnvelopeOpen} color="#000000"/>
+                    <FontAwesomeIcon icon={faEnvelopeOpen} color="#FFFFFF"/>
                 </a>
             </li>
         </ul>

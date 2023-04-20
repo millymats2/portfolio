@@ -1,14 +1,14 @@
 
 html{
   font-size: 62.5%;
+  font-family:'Times New Roman', Times, serif;
 }
 
 body {
   margin: 0;
   font: 300 11px/1.4 ;
-  color: white;
-  background: url(/src/images/bg.jpg);
-  background-color: #cccccc;
+  color: rgb(255, 255, 255);
+  background-color: #000000;
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;

@@ -1,9 +1,37 @@
 
 .about-me{
-    margin-left: -5%;
-    margin-right: 20%;
+    margin-left: -8%;
     display: flex;
-    margin-top: 20vh;
+    margin-top: 1%;
     gap: 5vh;
-    
+    text-align: left;
+    margin-right: 400px;
   }
+  
+  .story{
+    font-size: xx-large;
+    margin-left: -8%;
+    background-color: #ff7ebc;
+    top: 0;
+  }
+
+  @media screen and (max-width: 600px) {
+    .about-me{
+      font-size: 8px;
+      margin-right: 60px;
+    }
+    .story{
+      font-size: large;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) and (min-width: 1000px){
+    .about-me{
+      font-size: 10px;
+      margin-right: 220px;
+    }
+    .story{
+      font-size: large;
+    }
+  }
+

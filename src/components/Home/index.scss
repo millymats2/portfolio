@@ -1,10 +1,8 @@
 .name{
     font-size: 80px;
-
   }
 
   .resume-link {
-    margin-left: 20%;
     color:white;
     text-decoration: none;
     &:hover{
@@ -13,16 +11,16 @@
   } 
 
   .resume{
-    margin-left: 45%;
+    margin-left: 37%;
     font-size: medium;
     border-width: 2px;
   border-radius: 2vh;
   margin-top: 10%;
   height: 4vh;
-  width: 10vh;
+  width: 13vh;
   border: 0.5vh solid #f99fcb;
   border-style: outset;
-
+  text-align: center;
   transition-property: transform;
   transition-duration: 0.3s;
   transition-timing-function: ease;
@@ -53,7 +51,7 @@
   .icon{
     size: 30vh;
     height: 5vh;
-    width: 4.5vh;
+    width: 5.5vh;
     background-color: #f99fcb;
     border: 1vh solid #f99fcb;
     border-style: outset;
@@ -65,7 +63,7 @@
   transition-delay: 0s;
     &:hover{
       transform: translateY(-10px);;
-      width: 4.5vh;
+      width: 5.5vh;
     }
     &:hover:after{
       content: attr(data-hover);
@@ -82,13 +80,14 @@
     color: #e0e0e0;
   }
 
+  
   .coffee {
     width: 300px;
     height: 280px;
     position: absolute;
     top: calc(50% - 140px);
     left: calc(50% - 150px);
-    margin-left: 15%;
+    margin-left: 20%;
     transition-property: transform;
   transition-duration: 0.3s;
   transition-timing-function: ease;
@@ -349,8 +348,56 @@
   }
 
  
-@media screen and (max-width: 600px) {
-    .name{
-      font-size: x-large;
-    }
+  @media screen and (max-width: 800px) {
+  .name{
+    font-size: x-large;
+    margin-left: 1vh;
   }
+  .words{
+    font-size: medium;
+    margin-left: 1vh;
+    margin-top: 30%;
+  }
+  .coffee{
+  zoom: 0.5;
+  margin-left: -35%;
+  margin-top: 10%;
+  }
+  .resume{
+    margin-left: 1vh;
+    zoom: 0.7;
+  }
+  .skills{
+    zoom: 0.5;
+    margin-left: 1vh;
+    margin-top: 70%;
+  }
+  }
+
+
+  @media only screen and (max-width: 1200px) and (min-width: 801px){
+    .name{
+      font-size: xxx-large;
+      margin-left: 1vh;
+    }
+    .words{
+      font-size: large;
+      margin-left: 1vh;
+    }
+    .coffee{
+    zoom: .9;
+    margin-left: 15%;
+    position: absolute;
+    margin-top: 1%;
+    }
+    .resume{
+      margin-left: 1vh;
+      zoom: 0.85;
+    }
+    .skills{
+      zoom: 0.75;
+      margin-left: 1vh;
+      margin-top: 30vh;
+    }
+    }
+ 

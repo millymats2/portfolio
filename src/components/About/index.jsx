@@ -8,7 +8,7 @@ const About = () => {
     return(
         <div className="container about-page">
             <div className="text-zone">
-                <h1 className="name">MY STORY</h1>
+                <h1 className="story">MY STORY</h1>
                <p  className="about-me"> <h1 className="about-p"><p>Hello.</p>
                 <p>My name is Milana and I am Fullstack Developer focusing on PERN stack. 
 After having explored and worked in the world of psychology as a social worker, I decided to take on a more analytical position. I first started out on Code Academy, then decided to completely immerse myself in learning code by enrolling in Fullstack Academy's intensive bootcamp.</p> 

@@ -108,54 +108,57 @@
 }
 
 @media screen and (max-width: 800px) {
-    .name{
-      font-size: x-large;
-      margin-left: 1vh;
+    .contact-me{
+        font-size: large;
     }
-    .words{
-      font-size: medium;
-      margin-left: 1vh;
-      margin-top: 30%;
+    
+      .link{
+        zoom: 0.0001;
+      }
+    
+    .contact-form{
+        zoom:  0.75;
+       border: none;
+       display: flex;
+       flex-direction: column;
+       margin-right: 55vh;
     }
-    .coffee{
-    zoom: 0.5;
-    margin-left: -35%;
-    margin-top: 10%;
+    
+    .form{
+        align-items: center;
+        background-color: #f99fcb;
+        width: 40vh;
+        border-radius: 25px;
     }
-    .resume{
-      margin-left: 1vh;
-      zoom: 0.7;
+    
+    .touch{
+        text-align: center;
+        margin-left: -40vh;
     }
-    .skills{
-      zoom: 0.5;
-      margin-left: 1vh;
-      margin-top: 70%;
+
+    .submit{
+        margin-left: -40vh;
+    }
+    .contact-me{
+        color: transparent;
+        background-color: transparent;
     }
     }
   
   
     @media only screen and (max-width: 1200px) and (min-width: 801px){
-      .name{
-        font-size: xxx-large;
-        margin-left: 1vh;
-      }
-      .words{
-        font-size: large;
-        margin-left: 1vh;
-      }
-      .coffee{
-      zoom: .9;
-      margin-left: 15%;
-      position: absolute;
-      margin-top: 1%;
-      }
-      .resume{
-        margin-left: 1vh;
-        zoom: 0.85;
-      }
-      .skills{
-        zoom: 0.75;
-        margin-left: 1vh;
-        margin-top: 30vh;
-      }
+        .submit{
+            margin-top: 1vh;
+        }
+        .contact-form{
+    border: 5px solid #ff7ebc;
+    height: 53vh;
+    width: 100vh;
+    margin-top: 15vh;
+    margin-left: -100vh;
+    text-align: center;
+}
+.links{
+    margin-top: 80vh;
+}
       }

@@ -19,12 +19,10 @@ const Sidebar = () => (
             <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
                 <FontAwesomeIcon icon={faUser} color="#FFFFFF"/>
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="work-link" to="/work">
-                <FontAwesomeIcon icon={faFeather} color="#FFFFFF"/>
-            </NavLink>
             <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
                 <FontAwesomeIcon icon={faEnvelope} color="#FFFFFF"/>
             </NavLink>
+            <a href="https://moccasin-julie-64.tiiny.site/" activeclassname="active" className="work-link" ><FontAwesomeIcon icon={faFeather} color="#FFFFFF"/></a>
         </nav>
         <ul>
             <li>

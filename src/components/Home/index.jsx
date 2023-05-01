@@ -13,7 +13,7 @@ const Home = () => {
                 <h1 className="name">MILANA MATSUKA</h1>
                 <div className='position'>
                <p> <h1 className="words">DEVELOPER. CREATOR. VISIONARY.</h1></p>
-            <a href="https://moccasin-julie-64.tiiny.site/" className="resume-link" target="_blank"><h1 class="resume"><div class="inner">RESUME</div></h1></a>
+            <a href="https://ivory-alli-83.tiiny.site/" className="resume-link" target="_blank" rel="noreferrer"><h1 class="resume"><div class="inner">RESUME</div></h1></a>
             <div class="coffee">
     <div class="coffee-header">
       <div class="coffee-header__buttons coffee-header__button-one"></div>

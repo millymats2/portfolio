@@ -351,24 +351,25 @@
   @media screen and (max-width: 800px) {
   .name{
     font-size: x-large;
-    margin-left: 2%;
+    margin-left: 1vh;
   }
   .words{
     font-size: medium;
-    margin-left: 2%;
+    margin-left: 1vh;
     margin-top: 30%;
   }
   .coffee{
   zoom: 0.5;
-  margin-left: -15%;
+  margin-left: -35%;
   margin-top: 10%;
   }
   .resume{
-    margin-left: 2%;
+    margin-left: 1vh;
+    zoom: 0.7;
   }
   .skills{
-    zoom: 0.25;
-    margin-left: 1%;
+    zoom: 0.5;
+    margin-left: 1vh;
     margin-top: 70%;
   }
   }
@@ -377,25 +378,24 @@
   @media only screen and (max-width: 1200px) and (min-width: 801px){
     .name{
       font-size: xxx-large;
-      margin-left: 1vh;
+      margin-left: 2%;
     }
     .words{
       font-size: large;
-      margin-left: 1vh;
+      margin-left: 2%;
     }
     .coffee{
     zoom: .9;
-    margin-left: 15%;
+    margin-left: 20%;
     position: absolute;
     margin-top: 1%;
     }
     .resume{
-      margin-left: 1vh;
-      zoom: 0.85;
+      margin-left: 2%;
     }
     .skills{
-      zoom: 0.50;
-      margin-left: 1vh;
+      zoom: 0.35;
+      margin-left: 2%;
       margin-top: 30vh;
     }
     }

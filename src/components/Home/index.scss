@@ -378,15 +378,15 @@
   @media only screen and (max-width: 1200px) and (min-width: 801px){
     .name{
       font-size: xxx-large;
-      margin-left: 2%;
+      margin-left: 5%;
     }
     .words{
       font-size: large;
-      margin-left: 2%;
+      margin-left: 5%;
     }
     .coffee{
     zoom: .9;
-    margin-left: 20%;
+    margin-left: 5%;
     position: absolute;
     margin-top: 1%;
     }
@@ -397,6 +397,10 @@
       zoom: 0.35;
       margin-left: 2%;
       margin-top: 30vh;
+    }
+
+    .icon{
+      zoom: .5;
     }
     }
  

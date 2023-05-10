@@ -351,7 +351,7 @@
   @media screen and (max-width: 800px) {
   .name{
     font-size: x-large;
-    margin-left: 50%;
+    margin-left: 1vh;
   }
   .words{
     font-size: medium;
@@ -378,20 +378,20 @@
   @media only screen and (max-width: 1200px) and (min-width: 801px){
     .name{
       font-size: xxx-large;
-      margin-left: 5%;
+      margin-left: 10%;
     }
     .words{
       font-size: large;
-      margin-left: 5%;
+      margin-left: 10%;
     }
     .coffee{
     zoom: .9;
-    margin-left: 5%;
+    margin-left: 10%;
     position: absolute;
     margin-top: 1%;
     }
     .resume{
-      margin-left: 2%;
+      margin-left: 10%;
     }
     .skills{
       zoom: 0.35;

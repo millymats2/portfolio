@@ -351,20 +351,20 @@
   @media screen and (max-width: 800px) {
   .name{
     font-size: x-large;
-    margin-left: 5%;
+    margin-left: 10%;
   }
   .words{
     font-size: medium;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-top: 30%;
   }
   .coffee{
   zoom: 0.5;
-  margin-left: -35%;
+  margin-left: -20%;
   margin-top: 10%;
   }
   .resume{
-    margin-left: 5%;
+    margin-left: 10%;
     zoom: 0.7;
   }
   .skills{
@@ -375,6 +375,7 @@
 
   .icon{
     zoom: 0.5;
+    height: 2vh;
   }
   }
 

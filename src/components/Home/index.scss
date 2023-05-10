@@ -351,11 +351,11 @@
   @media screen and (max-width: 800px) {
   .name{
     font-size: x-large;
-    margin-left: 1vh;
+    margin-left: 5%;
   }
   .words{
     font-size: medium;
-    margin-left: 1vh;
+    margin-left: 5%;
     margin-top: 30%;
   }
   .coffee{
@@ -364,7 +364,7 @@
   margin-top: 10%;
   }
   .resume{
-    margin-left: 1vh;
+    margin-left: 5%;
     zoom: 0.7;
   }
   .skills{
@@ -372,35 +372,36 @@
     margin-left: 1vh;
     margin-top: 70%;
   }
+
+  .icon{
+    zoom: 0.5;
+  }
   }
 
 
   @media only screen and (max-width: 1200px) and (min-width: 801px){
     .name{
       font-size: xxx-large;
-      margin-left: 10%;
+      margin-left: 1vh;
     }
     .words{
       font-size: large;
-      margin-left: 10%;
+      margin-left: 1vh;
     }
     .coffee{
     zoom: .9;
-    margin-left: 10%;
+    margin-left: -35%;
     position: absolute;
     margin-top: 1%;
     }
     .resume{
-      margin-left: 10%;
+      margin-left: 1vh;
+      zoom: 0.85;
     }
     .skills{
-      zoom: 0.35;
-      margin-left: 2%;
+      zoom: 0.75;
+      margin-left: 1vh;
       margin-top: 30vh;
-    }
-
-    .icon{
-      zoom: .5;
     }
     }
  

@@ -121,23 +121,24 @@
        border: none;
        display: flex;
        flex-direction: column;
-       margin-right: 55vh;
+       margin-right: 10vh;
     }
     
     .form{
         align-items: center;
-        background-color: #f99fcb;
+        border: 1vh solid #f99fcb;
         width: 40vh;
         border-radius: 25px;
+        background-color: black;
     }
     
     .touch{
         text-align: center;
-        margin-left: -40vh;
+        margin-right: 55%;
     }
 
     .submit{
-        margin-left: -40vh;
+      margin-right: 55%;
     }
     .contact-me{
         color: transparent;
@@ -157,6 +158,7 @@
     margin-top: 15vh;
     margin-left: -100vh;
     text-align: center;
+    background-color: black;
 }
 .links{
     margin-top: 80vh;

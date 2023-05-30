@@ -12,6 +12,8 @@
   
   .abouttext{
     border: 4px solid #ff7ebc;
+    border-radius: 25px;
+    background-color: #ff7ebc;
   }
 
   .pic1{
@@ -19,9 +21,17 @@
     height: 150px;
   }
   .s{
-    background-color: #ff7ebc;
+    border: 4px solid #ff7ebc;
     align-items: center;
     padding: 10px;
+  }
+
+  .glinks{
+    color:white;
+    text-decoration: underline;
+    &:hover{
+      color: #ff7ebc;
+    }
   }
   
   @media screen and (max-width: 600px) {

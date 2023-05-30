@@ -18,9 +18,9 @@ const Work = () => (
                   height={200}
                   class="pic1"
                 /> 
-        <h3 class="glinks"><a href="https://github.com/millymats2/strangersThings"  >Github</a>
-        <a href="https://milly-and-wilson-strangers-things.netlify.app/" > Deployed Site</a>
-      <h3 class="aboutp">Within this project, the team collaborated to create a frontend website which acts as a Craigslist clone. A user is able to register, login, create, edit, and delete their posts as well as message other users about their posts. The main technologies used for this site included HTML, CSS, Javascript, React, Vite, and Bootstrap.</h3></h3>
+        <h3> <a href="https://github.com/millymats2/strangersThings" className="glinks" target="_blank" rel="noreferrer">Github</a>
+        <div> <a href="https://milly-and-wilson-strangers-things.netlify.app/" className="glinks" target="_blank" rel="noreferrer" > Deployed Site</a></div></h3>
+      <h3 class="aboutp">Within this project, the team collaborated to create a frontend website which acts as a Craigslist clone. A user is able to register, login, create, edit, and delete their posts as well as message other users about their posts. The main technologies used for this site included HTML, CSS, Javascript, React, Vite, and Bootstrap.</h3>
       </div>
       <div class="s">
         <h2 class="abouttext">Fitness Tracker</h2>
@@ -30,7 +30,7 @@ const Work = () => (
                   height={200}
                   class="pic1"
                 /> 
-        <h3 class="glinks">  <a href="https://github.com/aundrina/fitnessTrackerBackend">Github</a></h3>
+        <h3 class="glinks">  <a href="https://github.com/aundrina/fitnessTrackerBackend" className="glinks" target="_blank" rel="noreferrer">Github</a></h3>
       <h3 class="aboutp">Within this project, the team collaborated to create a fullstack website used to track a users workouts. A user is able to register, login, create routines, add activities to the routines, edit, and delete their routines. The main technologies used for this site included HTML, CSS, Javascript, React, React-App, Node.js, Express,and Bootstrap.</h3>
       </div>
       <div class="s">
@@ -41,8 +41,8 @@ const Work = () => (
                   height={200}
                   class="pic1"
                 /> 
-        <h3 class="glinks"> <a href="https://github.com/team-repo-2209/EcomProject">Github</a>
-       <a href="https://youtu.be/3KLgRBtz7YU" > Video Walkthrough</a></h3>
+        <h3 class="glinks"> <a href="https://github.com/team-repo-2209/EcomProject"className="glinks" target="_blank" rel="noreferrer">Github</a>
+       <div><a href="https://youtu.be/3KLgRBtz7YU" className="glinks" target="_blank" rel="noreferrer"> Video Walkthrough</a></div></h3>
         <h3 class="aboutp">Within this project, the team collaborated to create a fullstack website used to sell and buy Marvel NFTs. A user is able to register, login, create NFT's, add NFT's to their cart, link their account to MetaMask, and complete the purchase via MetaMask. Admins are able edit, or delete the NFTs. The main technologies used for this site included HTML, CSS, Javascript, React, React-App, Node.js, Express, Bootstrap, and Prisma.</h3>
       </div>
       <div class="s">
@@ -53,7 +53,7 @@ const Work = () => (
                   height={200}
                   class="pic1"
                 /> 
-        <h3 class="glinks"> <a href="https://developer.tatumgames.com/">Deployed Site</a></h3>
+        <h3 class="glinks"> <a href="https://developer.tatumgames.com/"className="glinks" target="_blank" rel="noreferrer">Deployed Site</a></h3>
         <h3 class="aboutp">Within this project, the team collaborated to create a fullstack website used to help promote video game creator analytics. Individual contribution included reviewing code from both internal developers and outside interns to find bugs, finding opportunities to improve, editing code to company standards for organization and optimizing coding process by streamlining JavaScript functions in order to declutter the code. The main technologies used for this site included HTML, CSS, Javascript, PHP, XAMPP, and MySQL. </h3>
       </div>
       </div>
